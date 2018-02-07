@@ -101,6 +101,7 @@
 		D21F97B02029958000BE944E /* HJSpecialEffect */ = {
 			isa = PBXGroup;
 			children = (
+				D21F97E3202995CA00BE944E /* EffectClass */,
 				D21F97B12029958000BE944E /* AppDelegate.h */,
 				D21F97B22029958000BE944E /* AppDelegate.m */,
 				D21F97B42029958000BE944E /* ViewController.h */,
@@ -130,6 +131,13 @@
 				D21F97D72029958000BE944E /* Info.plist */,
 			);
 			path = HJSpecialEffectUITests;
+			sourceTree = "<group>";
+		};
+		D21F97E3202995CA00BE944E /* EffectClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EffectClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PZMTS6D3B;
 				INFOPLIST_FILE = HJSpecialEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJSpecialEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PZMTS6D3B;
 				INFOPLIST_FILE = HJSpecialEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJSpecialEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
